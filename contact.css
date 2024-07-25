@@ -9,7 +9,7 @@
 .csec-01{
     width: 100%;
     min-height: 100vh;
-    background: url(images/contactbcg.jpg) no-repeat;
+    background: url(contactbcg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
