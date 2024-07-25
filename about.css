@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    height: auto;
+}
+
+/*-------------------------------about sec-01 css starts  here---------------------------*/
+
+.asec-01 {
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/a1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.abouttext {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.abouttext h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.abouttext p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/*-------------------------------about sec-01 css ends  here---------------------------*/
+/*-------------------------------about sec-02 css starts  here---------------------------*/
+.asec-02 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+}
+
+.aleftcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 35%;
+    margin-top: 10%;
+}
+
+.arightcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65%;
+    margin-top: 10%;
+}
+
+.acontent {
+    display: flex;
+
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.acontent h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+.acontent2 p {
+    text-align: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: left;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #8f8e8e;
+}
+
+.acontent2 img {
+    position: relative;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.abox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.acontenttext h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.acontent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-right: 20px;
+
+}
+
+.acontent3 i {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.acontenttext p {
+    color: #8f8e8e;
+    margin-bottom: 30px;
+}
+
+.acontenttext {
+
+    border-bottom: 1px solid lightgrey;
+}
+
+.abox1:first-child {
+    margin-top: 100px;
+}
+
+/*-------------------------------about sec-02 css ends  here-----------------------------*/
+/*-------------------------------about sec-03 css starts  here-----------------------------*/
+.asec-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /* background-color: rgb(27, 27, 27); */
+    background-color: red;
+}
+
+.specialleftcontainer,
+.specialmiddlecontainer,
+.specialrightcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.scontent h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.scontent p {
+
+    /* justify-content: left;
+    flex-direction: column; */
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+.scontent .btn4 {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    padding: 15px;
+    /* background-color: rgb(27, 27, 27); */
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-weight: bolder;
+
+}
+
+.scontent .btn4:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.cl1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+  background-position: center;
+}
+.specialleftcontainer,
+.specialmiddlecontainer,
+.specialrightcontainer {
+    flex: 1 1 28%;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.scontent .cl1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cl1 h4 {
+    color: white;
+    text-align: center;
+}
+
+.cl1 p {
+    text-align: center;
+
+}
+
+.cl1 img {
+    margin-left: 30px;
+    margin: 20px;
+}
+
+/*-------------------------------about sec-03 css ends  here-----------------------------*/
+/*-------------------------------about sec-04 css starts  here---------------------------*/
+.asec-04 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.teamcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.teamleftcontainer,
+.teamrightcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 45%;
+    width: 1170px;
+    /* justify-content: center; */
+    margin-top: 80px;
+    gap: 20px;
+
+}
+
+.teamleftcontainer h1 {
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #000;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.teamrightcontainer p {
+    line-height: 1.8;
+    text-align: left;
+    font-size: 1.1rem;
+    justify-content: left;
+    color: #8f8e8e;
+}
+
+.photoscontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 35px auto;
+    padding: 0px 50px;
+    
+}
+.aphoto{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aphoto img {
+    width: 100%;
+    max-width: 450px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.aphoto p{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.asocial i{
+    /* gap: 20px; */
+    padding: 0px 7px;
+    color: #8f8e8e;
+}
+.asocial i:hover{
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s;
+}
+
+/*-------------------------------about sec-04 css ends  here-----------------------------*/
+@media only screen and (min-width: 150px) and (max-width: 1336px){
+    .asec-01{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .asec-02{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .arightcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .aleftcontainer,.arightcontainer{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .acontent2 img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .acontent, .abox1,.acontenttext {
+        width: 100%;
+        text-align: center; 
+    }
+    .acontent3 {
+        margin-bottom: 10px; /* Space between icons and text */
+    }
+    .asec-03{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .specialleftcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .scontent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .scontent h1{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .scontent p{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .scontent button{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .asec-04{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .teamcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .teamleftcontainer,.teamrightcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .teamleftcontainer h1{
+        margin-left: 0px;
+        margin-right: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: auto;
+    }
+    .teamrightcontainer p{
+        margin-left: 0px;
+        margin-right: 50px;
+        text-align: left;
+        justify-content: center;
+        align-items: center; 
+        width: fit-content;
+        height: auto;
+    }
+    .photoscontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .asocial{
+        margin-bottom: 30px;
+    }
+    .aphoto img p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .aphoto p{
+        margin-top: 15px;
+    }
+    .aphoto img{
+        width: 155%;
+    }
+    
+}

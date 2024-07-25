@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*-------------------------------------contact sec -01 css starts here-----------------------------*/
+.csec-01{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/contactbcg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contacttext{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contacttext h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.contacttext p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.reservation-container  #fh{
+    margin-top: 14vh;
+    text-align: center;
+     font-size: 2.5rem;
+     margin-bottom: 20px;
+     font-weight: bold;
+     color: #000;
+}
+/*-------------------------------------contact sec -01 css ends here-----------------------------*/
+/*-------------------------------------contact sec -02 css starts here-----------------------------*/
+.csec-02{
+    
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 18vh;
+    margin-bottom: 10vh;
+    /* background-color: #fff; */
+}
+.contactcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.contactleftcontainer,.contactrightcontainer{
+    width: 48%;
+    flex-grow: 1;
+    
+    
+}
+
+.contactleftcontainer iframe{
+    width: 600px;
+    height: 660px;
+}
+.contactrightcontainer .formcontainer{
+    /* display: flex;  */
+    /* flex-direction: column;*/
+     width: inherit;
+    margin-top: 30px; 
+    
+ 
+    /* flex-wrap: wrap; */
+
+}
+.contactrightcontainer .formcontainer form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.contactrightcontainer form label, 
+.contactrightcontainer form input, 
+.contactrightcontainer form textarea {
+    width: 100%;
+    
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.contactrightcontainer #name,#email{
+    width: 400px;
+    height: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b8b8;
+}
+.contactrightcontainer #tx{
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b8b8;
+}
+
+.contactrightcontainer .rightheading h2{
+    font-size: 2.5rem;
+    color: #000;
+    text-align: left;
+    align-items: left;
+    margin: 10px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    
+}
+.contactrightcontainer .rightheading p{
+    font-size: 1rem;
+    text-align: left;
+    align-items: left;
+    margin: 10px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    color: #8f8e8e;
+}
+.btn6{
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+    width: 150px;
+    height: 45px;
+    font-weight: bolder;
+    
+}
+.btn6:hover{
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+@media only screen and  (min-width:200px) and (max-width:1336px){
+    .csec-02{
+        overflow-x: hidden;
+    }
+    .contactrightcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .contactcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto; 
+    }
+    .formcontainer #name,#email,#tx{
+        width: 350px;
+    }
+}
+/*-------------------------------------contact sec -02 css ends here-----------------------------*/

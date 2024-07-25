@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blogsec-01{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/ourblog1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blogheading{
+    display: flex;
+    max-width: 800px;
+    height: inherit;
+    position: relative;
+    margin-left: 10%;
+    
+}
+.blogheading h1{
+    position: absolute;
+    text-align: left;
+    margin-top: 30%;   
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.blogheading p{
+    position: absolute;
+    text-align: left;
+    margin-top: 40%;   
+    width: 100%;
+    height: inherit;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    
+}
+/*-----------------------------sec -02 starts here----------------------------*/
+.blogsec-02{
+    width: 100%;
+    min-height: 60vh;
+}
+.blog-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.leftblog img{
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+
+}
+.leftblog img:hover{
+   filter: grayscale(0%);
+   cursor: pointer; 
+   transform: scale(1.1); 
+}
+.leftblog{
+    width: 25%;
+}
+.rightblog{
+    width: 70%;
+}
+.blogheading2{
+    margin-top: 50px;
+}
+.blogheading2 h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: red;
+}
+.blogheading2 p{
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: #000;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+@media only screen and  (min-width:200px) and (max-width:1336px){
+    .blogsec-01{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .blogsec-02{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+    }
+    .blog-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .rightblog .blogheading2{
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        margin-left: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .blogheading{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .blogheading h1 {
+        margin-top: 30%;
+        font-size: 2rem;
+    }
+
+    .blogheading p {
+        margin-top: 50%;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    .leftblog img {
+        /* width: 100% !important; */
+        min-width: 0; /* Ensure no minimum width restrictions */
+        height: auto; /* Maintain aspect ratio */
+        width: 250px;
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+        justify-content: center;
+        margin-left: 65px;
+    }
+    .leftblog img:hover{
+        transform: scale(1.1);
+    }
+}
+/*-----------------------------sec -02 ends here----------------------------*/

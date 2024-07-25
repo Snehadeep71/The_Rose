@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSE-Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="menulight.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+            <a href="index.html" class="nav__logo">
+               <img src="images/gimg07.jpeg" alt="image_not_available">
+            </a>
+  
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+  
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="about.html" class="nav__link">About Us</a></li>
+  
+                 <li><a href="ourblogs.html" class="nav__link">Our Blogs</a></li>
+  
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Our Outlets <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+  
+                    <ul class="dropdown__menu">
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 1<i
+                                   class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                            </ul> 
+                       </li>
+  
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 2<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                               <!-- </li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-file-list-line"></i> Dissertation Writing
+                                  </a>
+                               </li> -->
+                            </ul> 
+                       </li>
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i>Outlet 3<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                               <!-- </li>
+                                  <a href="#" class="dropdown__sublink">
+                                     <i class="ri-file-list-line"></i> Dissertation Writing
+                                  </a>
+                               </li> -->
+                            </ul> 
+                       </li>
+  
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> Outlet 4<i class="ri-add-line dropdown__add"></i>
+                          </div>
+  
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="outlethome.html#m1" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i>Menu
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#t12" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Testimonial
+                                </a>
+                             </li>
+                             <li>
+                                <a href="outlethome.html#g1" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Gallery
+                                </a>
+                             </li>
+                             <!-- <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Pay someone do my homework
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Coursework help
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Thesis writing help
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i>Powerpoint presentation services
+                                </a>
+                             </li> -->
+                          </ul>
+                       </li>
+                    </ul>
+                 </li>
+                 <li><a href="contact.html" class="nav__link">Contact</a></li>
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li><a href="ourculture.html" class="nav__link">Our Culture</a></li>
+  
+                    <!-- <ul class="dropdown__menu">
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-user-line"></i> Samples
+                            </a>
+                         </li>
+    
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-lock-line"></i> Blogs
+                            </a>
+                         </li>
+    
+                         <li>
+                            <a href="#" class="dropdown__link">
+                               <i class="ri-message-3-line"></i> Answers
+                            </a>
+                         </li>
+                      </ul> -->
+                 </li>
+  
+              </ul>
+           </div>
+        </nav>
+     </header>
+    <section class="msec-01">
+        <div class="mtext">
+            <h1>Our Menu</h1>
+            <p>From sumptuous starters to hearty mains, each dish is crafted with the finest ingredients and a touch of artistic flair.  <br> Our selection includes everything from international cuisines and comfort foods to gourmet specialties that showcase our culinary prowess.</p>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-012">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu1.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Appetizer</h2>
+                <p>Our appetizers set the stage for an extraordinary dining experience, offering a tantalizing array of flavors and textures that excite the palate. Each appetizer is crafted with a blend of creativity and precision, designed to provide a delightful start to your meal.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>SWEET CORN SOUP</h1>
+                    <p style="color: #8f8e8e;">Heartwarming classic that embodies comfort and flavor in every spoonful</p>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>TOMATO SOUP</h5>
+                <p>Tomato</p>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>Hot & Sour Soup</h5>
+                <p>Veg/Non-Veg</p>
+            </div>
+
+        </div>
+        <div class="menuitems menuitemsright">
+            <div class="menuitem1">
+                <h5>SWEET CORN SOUP</h5>
+                <p>VEG/NONVEG</p>
+            </div>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-0121">
+
+      <div class="leftmenucontainer">
+          <img src="images/menu1.png" alt="image_not_available">
+      </div>
+      <div class="rightmenucontainer">
+          <div class="menutext">
+              <h2>Tandoor Starter Veg</h2>
+              <p>At The Rose Kitchen, our Tandoor Starter Veg is a celebration of traditional Indian flavors, expertly prepared to delight both the eyes and the taste buds.</p>
+
+          </div>
+          <div class="menutext0">
+              <div class="menutext1">
+                  <img src="images/s2.png" alt="image_not_available" srcset="">
+              </div>
+              <div class="menutext2">
+                  <h5>Signature</h5>
+                  <h1>Paneer Tikka Kebab</h1>
+                  <p style="color: #8f8e8e;">our Paneer Tikka Kebab is a standout dish that exemplifies the perfect blend of traditional flavors and modern culinary techniques</p>
+                 
+              </div>
+          </div>
+      </div>
+  </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>Paneer Tikka Kebab</h5>
+                <p>Paneer</p>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>Tandoori Aloo</h5>
+                <p>Veg</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="msec-02" id="msec-0123">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu2.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Non-Veg</h2>
+                <p>Our non-vegetarian starters are a tantalizing introduction to the culinary delights that await. </p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s3.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>CHICKEN RESHMI KEBAB</h1>
+                    <p style="color: #8f8e8e;">Our Chicken Reshmi Kebab is a special item that epitomizes luxury and indulgence in every bite</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>CHICKEN TIKKA KEBAB</h5>
+                <p>Chicken/Non-veg</p>
+            </div>
+            <div class="menuitem1">
+                <h5>TANDOORI MURGH (FULL)</h5>
+                <p>Chicken/Non-veg</p>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+            <div class="menuitem1">
+                <h5>CHICKEN RESHMI KEBAB</h5>
+                <p>Chicken/Non-veg</p>
+            </div>
+            <div class="menuitem1">
+                <h5>TANDOORI MURGH (Half)</h5>
+                <p>Chicken/Non-veg</p>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+            <div class="menuitem1">
+                <h5>FISH TIKKA</h5>
+                <p>Bhetki Fish/Non-veg</p>
+            </div>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-01231">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu2.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Indian Main Courses Veg & Non-veg</h2>
+                <p>At The Rose Kitchen, our Indian Main Courses offer a delightful journey through the rich tapestry of Indian cuisine, showcasing both vegetarian and non-vegetarian dishes that cater to diverse palates.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s3.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>Kadai Chicken (Bone)</h1>
+                    <p style="color: #8f8e8e;">At The Rose Kitchen, our Kadai Chicken is a standout dish that captures the essence of traditional Indian cooking with its bold flavors and aromatic spices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+      
+        <div class="menuitems menuitemsleft">
+         <h3>Veg</h3>
+            <div class="menuitem1">
+                <h5>PANEER BUTTER MASALA</h5>
+                <p>Panneer / Butter</p>
+            </div>
+            <div class="menuitem1">
+                <h5>KADAI PANEER</h5>
+                <p>Bacon / Shrimp / Garlic</p>
+            </div>
+            <div class="menuitem1">
+                <h5>PANEER KULCHA</h5>
+                <p>Lamb / Wine / Butter</p>
+            </div>
+            <div class="menuitem1">
+                <h5>PANEER TIKKA MASALA</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>DAL MAKHANI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>DAL BUTTER FRY</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+         <h3>Veg</h3>   
+            <div class="menuitem1">
+                <h5>Aloo Dum</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>KADAI VEG</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>SAHI SABNAMI KOFTA</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>SABI KOLAHPURI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>ALOO NIRALI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>BAINGAN BHARTA</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+         <h3>Non-veg</h3>
+            <div class="menuitem1">
+                <h5>CHICKEN RESHMI MASALA</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>CHICKEN BHARTA</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>CHICKEN TIKKA MASALA</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>KADAI CHICKEN (BONE)</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>CHICKEN BUTTER MASALA </h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>BUTTER CHICKEN</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsright">
+         <h3>Non-veg</h3>
+            <div class="menuitem1">
+                <h5>CHICKEN MASALA (BONE)</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>FISH TAWA MASALA</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MUTTON KASA</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>KADAI MUTTON</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>CHICKEN BUTTER MASALA </h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>GOAN FISH CURRY</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+    </section>
+    <section class="msec-02" id="msec-01232">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu2.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2>Pulao & Biriyani and Rotis</h2>
+                <p>At The Rose Kitchen, we offer a delightful combination of aromatic Biryani, flavorful Pulao, and freshly baked Rotis that together create a perfect Indian culinary experience.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s3.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>Mutton Biriyani</h1>
+                    <p style="color: #8f8e8e;">our Mutton Biryani is a culinary masterpiece that captures the essence of traditional Indian cooking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+      
+        <div class="menuitems menuitemsleft">
+            <div class="menuitem1">
+                <h5>SABZI PULAO</h5>
+                <p>Panneer / Butter</p>
+            </div>
+            <div class="menuitem1">
+                <h5>PEAS PULAO</h5>
+                <p>Bacon / Shrimp / Garlic</p>
+            </div>
+            <div class="menuitem1">
+                <h5>JEERA RICE</h5>
+                <p>Lamb / Wine / Butter</p>
+            </div>
+            <div class="menuitem1">
+                <h5>PANEER PULAO</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>STEAM RICE</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>VEG BIRIYANI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+           
+            <div class="menuitem1">
+                <h5>EGG BIRIYANI</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MURGH DUM BIRIYANI</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MUTTON BIRIYANI</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>TANDOORI ROTI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>BUTTER TANDOORI ROTI</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            
+        </div>
+        <div class="menuitems menuitemsright">
+         
+            <div class="menuitem1">
+                <h5>GARLIC NAAN</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MASALA KULCHA</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>PANEER KULCHA</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>LACHHA PARATHA</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+            <div class="menuitem1">
+               <h5>PLAIN NAAN</h5>
+               <p>Oysters / Veggie / Ginger</h3>
+           </div>
+           
+        </div>
+    </section>
+    
+    <section class="msec-02" id="msec-01233">
+
+        <div class="leftmenucontainer">
+            <img src="images/menu3.png" alt="image_not_available">
+        </div>
+        <div class="rightmenucontainer">
+            <div class="menutext">
+                <h2> Accompaniments, Dessert & Beverages</h2>
+                <p>At The Rose Kitchen, we believe that the right accompaniments, desserts, and beverages can elevate your dining experience, complementing our main courses and adding a touch of indulgence to your meal.</p>
+
+            </div>
+            <div class="menutext0">
+                <div class="menutext1">
+                    <img src="images/s2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="menutext2">
+                    <h5>Signature</h5>
+                    <h1>Hot Gulab Jamun</h1>
+                    <p style="color: #8f8e8e;">Our Hot Gulab Jamun is a timeless classic that exemplifies the artistry of Indian dessert-making</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="msec-03">
+       <div class="menuitems menuitemsleft">
+           <h3>Accompaniments</h3>
+            <div class="menuitem1">
+                <h5>ROASTED PAPAD</h5>
+                <p>Lemon / Garlic / Beans</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>GREEN SALAD</h5>
+                <p>Bacon / Shrimp / Garlic</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>PLAIN CURD</h5>
+                <p>Lamb / Wine / Butter</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MIXED RAITA</h5>
+                <p>Oysters / Veggie / Ginger</h3>
+            </div>
+        </div>
+        <div class="menuitems menuitemsmiddle">
+         <h3>Beverages & Desserts</h2>
+            <div class="menuitem1">
+                <h5>COLD DRINKS</h5>
+                <P>Chilled/ Refreshing </h3>
+            </div>
+            <div class="menuitem1">
+                <h5>PACKAGE DRINKING WATER</h5>
+                <P>Water</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>HOT GULAM JAMUN</h5>
+                <P>Sweet</h3>
+            </div>
+            <div class="menuitem1">
+                <h5>MISTI DOI</h5>
+                <P>Sweet</h3>
+            </div>
+        </div>
+    </section>
+    <section class="sec-08">
+        <div class="reservation-container">
+            <h2>Reservation</h2>
+            <p style="color: #fff;">we are dedicated to providing you with an exceptional dining experience, and securing your table in advance ensures that your visit is seamless and enjoyable.</p>
+            <button class="btn3">Book A Table Now</button>
+            <h5 style="color: #fff;">Telephone Reservations</h5>
+            <p id="ph">+91 82408 76066</p>
+        </div>
+    </section>
+    <footer class="footer1">
+      <div class="rows">
+         <div class="row1">
+            <h2>The Rose</h2>
+            <div class="col1">
+               <p>The Rose is not just a place to eat; it’s an experience that tantalizes your taste buds and warms your heart. Nestled in the vibrant neighborhoods of Kolkata, The Rose offers a unique blend of culinary artistry and confectionary magic.</p>
+            </div>
+            <div class="social">
+               <a href="https://www.facebook.com/TheRoseKolkata/" target="_blank"><div><i class="fa-brands fa-facebook"></i></div></a>
+               <a href="https://www.instagram.com/the.rosekitchen/" target="_blank"><div><i class="fa-brands fa-instagram"></i></div></a>
+               <a href=""><div><i class="fa-brands fa-youtube"></i></div></a>
+               <a href=""><div><i class="fa-brands fa-x-twitter"></i></div></a>
+               <a href=""><div><i class="fa-brands fa-whatsapp"></i></div></a>
+            </div>
+         </div>
+         <div class="row1">
+            <h2>Our Location</h2>
+            <div class="col1">
+               <p id="lp"> P/348, CIT Rd Scheme 6M, Scheme 6M, Phool Bagan, Kankurgachi, Kolkata, West Bengal 700054</p>
+               <p>+91 82408 76066</p>
+               <a href="https://maps.app.goo.gl/9jk9VaBw3S11vC8u9" target="_blank">
+                  <p id="dp"><i class="fa-solid fa-location-dot"></i>Get Direction</p>
+               </a>
+            </div>
+         </div>
+         <div class="row1">
+            <h2>Quick Link</h2>
+            <div class="col2">
+               <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li class="dropdown__item">
+                     <div class="dropdown__link" style="font-size: 1rem; margin: 0; padding: 0;">
+                        Our Outlets <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+                     <ul class="dropdown__menu">
+                        <li class="dropdown__subitem" >
+                           Outlet 1
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 2
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 3
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown__subitem">
+                           Outlet 4
+                           <ul class="dropdown__submenu">
+                              <li><a href="outlethome.html#m1">Menu</a></li>
+                              <li><a href="outlethome.html#t12">Testimonial</a></li>
+                              <li><a href="outlethome.html#g1">Gallery</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="ourblogs.html">Our Blogs</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="ourculture.html">Our Culture</a></li>
+               </ul>
+            </div>
+
+         </div>
+         <div class="row1">
+            <h2>Opening Hours</h2>
+            <div class="col3">
+               <span><i class="fa-solid fa-clock"></i>&nbsp;&nbsp;Everyday</span>
+               <p>12 PM to 10.30PM</p>
+            </div>
+
+         </div>
+      </div>
+      <hr>
+      <div class="copyright">
+         <div class="copy">Copyright © 2024 The Rose Kitchen</div>
+         <div class="copy2">Powered by Saraf Worldwide</div>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>

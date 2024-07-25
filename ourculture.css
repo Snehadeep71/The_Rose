@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.culsec-01{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/ourculture1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.culheading{
+    display: flex;
+    max-width: 800px;
+    height: inherit;
+    position: relative;
+    margin-left: 10%;
+    
+}
+.culheading h1{
+    position: absolute;
+    text-align: left;
+    margin-top: 30%;   
+    width: 100%;
+    height: inherit;
+    flex-direction: column;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+.culheading p{
+    position: absolute;
+    text-align: left;
+    margin-top: 40%;   
+    width: 100%;
+    height: inherit;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.culsec-02 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 40vh;
+    background-color: whitesmoke;
+    padding: 30px; /* Use padding instead of margin to avoid overflow */
+    box-sizing: border-box; /* Ensure padding is included in the element's width */
+  }
+  
+  .cultext {
+    text-align: left;
+    width: 100%; /* Set to 100% to avoid overflow */
+    max-width: 70%; /* Control the maximum width */
+    margin: 0 auto; /* Center align the content */
+    box-sizing: border-box;
+  }
+  
+  .cultext p {
+    color: #8f8e8e;
+    line-height: 2;
+    margin-left: 0; /* Remove left margin to prevent overflow */
+    padding-left: 70px; /* Add padding for indentation */
+    box-sizing: border-box;
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+/*----------------css for section 3 starts here-------------------------*/
+.culsec-03{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #eaeaea;
+    
+}
+.culwrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.culleft,.culright{
+    display: flex;
+    width: 45%;
+    gap: 20px;
+    
+}
+.culleft img{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+ .culrighttext h2{
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    
+}
+ .culrighttext p{
+    text-align: left;
+    flex-wrap: wrap;
+    line-height: 2;
+    margin-left: 50px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    color: #8f8e8e;
+    
+}
+@media only screen and (min-width: 150px) and (max-width: 1336px) {
+    .culsec-03 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .cultext {
+        width: 100%; /* Full width for small screens */
+        padding-left: 20px; /* Adjust padding for small screens */
+      }
+    
+
+    .culwrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .culleft {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .culleft img {
+        width: 80%;
+        height: auto;
+    }
+
+    .culright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .culrighttext {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .culheading{
+        display: flex;
+        flex-direction: column;
+    }
+    .culheading h1{
+        margin-bottom: 30%;
+        font-size: 2rem;
+    }
+    .culheading p{
+        margin-top: 50%;
+        font-size: 1.2rem;
+    }
+}
+/*----------------css for section 3 ends here-------------------------*/
