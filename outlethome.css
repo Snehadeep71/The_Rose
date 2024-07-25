@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .o1sec-01{
-    background: url(images/phoolbagan-outlet-bcg.jpeg) no-repeat;
+    background: url(phoolbagan-outlet-bcg.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -429,20 +429,20 @@ content: '';
     color: #000;
 }
 .smenu-item a:nth-child(1) .menu1 {
-    background-image: url(images/indian.jpeg);
+    background-image: url(indian.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .smenu-item a:nth-child(2) .menu1{
-    background-image: url(images/chinese.jpeg);
+    background-image: url(chinese.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
    
 }
 .smenu-item a:nth-child(3) .menu1{
-    background-image: url(images/pastaandpizza.jpeg);
+    background-image: url(pastaandpizza.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
@@ -450,7 +450,7 @@ content: '';
 
 }
 .smenu-item a:nth-child(4) .menu1{
-    background-image: url(images/southindian.jpeg);
+    background-image: url(southindian.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
@@ -458,7 +458,7 @@ content: '';
 
 }
 .smenu-item a:nth-child(5) .menu1{
-    background-image: url(images/wrapsandrolls.jpeg);
+    background-image: url(wrapsandrolls.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
@@ -466,7 +466,7 @@ content: '';
 
 }
 .smenu-item a:nth-child(6) .menu1{
-    background-image: url(images/wrapsandrolls.jpeg);
+    background-image: url(wrapsandrolls.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
